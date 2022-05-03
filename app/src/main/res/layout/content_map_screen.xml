@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <fragment
+        android:id="@+id/mapView"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/resMap_hor91_guideline"
+        app:layout_constraintEnd_toStartOf="@+id/resMap_ver90_guideline"
+        app:layout_constraintStart_toStartOf="@+id/resMap_ver10_guideline"
+        app:layout_constraintTop_toTopOf="@+id/resMap_guideline"
+        tools:context=".MapsActivity" />
+
+    <TextView
+        android:id="@+id/resMap_title"
+        android:text="@string/resList_title"
+        app:autoSizeTextType="uniform"
+        android:maxLines="1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textStyle="bold"
+        android:layout_margin="0dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/resMap_guideline"
+        app:layout_constraintEnd_toStartOf="@id/resMap_ver90_guideline"
+        app:layout_constraintStart_toEndOf="@id/resMap_ver10_guideline"
+        app:layout_constraintTop_toBottomOf="@id/resMap_hor08_guideline"
+        />
+
+    <Button
+        android:id="@+id/restaurantList"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/restaurant_list"
+        android:textColor="#2962FF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/resMap_ver90_guideline"
+        app:layout_constraintStart_toStartOf="@+id/resMap_ver10_guideline"
+        app:layout_constraintTop_toBottomOf="@+id/resMap_hor91_guideline" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/resMap_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/resMap_hor08_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/resMap_hor91_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/resMap_ver90_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.90" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/resMap_ver10_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

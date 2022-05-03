@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Health Inspection Viewer</string>
+
+    <!--  Start Screen  -->
+    <string name="start_welcome_sentence">Welcome To</string>
+
+    <!--  Restaurant List Screen  -->
+    <string name="resList_title">Surrey Restaurants</string>
+
+    <!--  Restaurant Screen  -->
+    <string name="restaurant_title">Restaurant</string>
+    <string name="res_icon">restaurant icon</string>
+    <string name="res_address">Address :</string>
+    <string name="res_GPS_text">GPS coords :</string>
+    <string name="res_latitude">Latitude :</string>
+    <string name="res_Longitude">Longitude :</string>
+    <string name="res_inspection">Inspection :</string>
+    <string name="res_inspection_empty">This restaurant has no associated inspection.</string>
+
+    <!--  Inspection Screen  -->
+    <string name="inspection_title">Inspection</string>
+    <string name="inspection_date">Date :</string>
+    <string name="inspection_type">Type :</string>
+    <string name="inspection_hazard">Hazard :</string>
+    <string name="inspection_violation">All Violations :</string>
+    <string name="inspection_violation_empty">This inspection has no associated violation.</string>
+    <string name="inspection_issue">issue :</string>
+    <string name="inspection_crit"># critical issues :</string>
+    <string name="inspection_noncrit"># non-critical issues :</string>
+
+    <!--  Restaurant List View  -->
+    <string name="resListView_res_icon">restaurant icon</string>
+    <string name="resListView_issue"># of issues :</string>
+    <string name="resListView_hazard">Hazard level :</string>
+    <string name="resListView_inspection">Recent Inspection :</string>
+    <string name="resListView_date">Date :</string>
+    <string name="resListView_no_inspection">This restaurant has no inspection report.</string>
+
+
+    <!--  Inspection List View  -->
+    <string name="inspectionListView_hazard">Hazard level :</string>
+    <string name="inspectionListView_crit"># critical issues :</string>
+    <string name="inspectionListView_noncrit"># non-critical issues :</string>
+    <string name="inspectionListView_date">Date :</string>
+
+    <!-- Violation List View  -->
+    <string name="violationArrayList_vio_text">Nature of Violation :</string>
+    <string name="violationArrayList_issue_text">Issue :</string>
+
+
+    <!--  sample string for generate UI  -->
+    <string name="sample_restaurant_name">Sample Restaurant</string>
+    <string name="sample_issue_num">2</string>
+    <string name="sample_hazard_lv">Moderate</string>
+    <string name="sample_inspection_date">Dec 2020</string>
+    <string name="sample_address">12808 King George Blvd</string>
+    <string name="sample_lat">49.20611</string>
+    <string name="sample_long">-122.867</string>
+    <string name="sample_crit_num">0</string>
+    <string name="sample_noncrit_num">0</string>
+    <string name="sample_inspection_date_full">2019-02-27</string>
+    <string name="sample_inspection_type">Follow-Up</string>
+    <string name="sample_violation_nature">Sanitization</string>
+    <string name="sample_violation_issue">non-critical</string>
+    <string name="sample_violation_description">Equipment/facilities/hot &amp; cold water for sanitary maintenance not adequate [s. 17(3); s. 4(1)(f)]</string>
+    <string name="title_activity_map_screen">MapScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="restaurant_list">Restaurant List</string>
+    <string name="restaurant_map">Restaurant Map</string>
+
+
+</resources>

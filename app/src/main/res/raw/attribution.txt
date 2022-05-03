@@ -1,0 +1,19 @@
+For icons used in the application, they were taken from these web resources:
+
+Low Hazard Icon: https://www.kindpng.com/imgv/hhxJwwm_danger-exclamation-warning-sign-attention-alert-danger-sign/
+Moderate Hazard Icon: https://www.nicepng.com/ourpic/u2e6t4t4r5y3e6t4_exclamation-mark-png-prop-65-warning-symbol/
+High Hazard Icon: https://www.pngfuel.com/free-png/gmocm
+Green Check (non -critical) icon: https://www.pngfuel.com/free-png/aklpz
+Red cross icon: https://www.pngguru.com/free-transparent-background-png-clipart-nrtcd
+Restaurant icon: https://www.iconfinder.com/search/?q=restaurant&price=free&type=vector&license=2
+Restaurant logos:
++) Burger King: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Burger_King_Logo.svg/1200px-Burger_King_Logo.svg.png
++) KFC: https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/KFC_logo.svg/1200px-KFC_logo.svg.png
++) Wendy's: https://pbs.twimg.com/profile_images/1239952836106092544/vXDvFy3T_400x400.jpg
++) Starbucks: https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png
++) Subway: https://pbs.twimg.com/profile_images/763049278306652160/1AgT2EJt_400x400.jpg
++) Timhortons: https://www.downtownkelowna.com/application/files/cache/f7060ff6d16012446721247c1c085376.jpg
++) 7-11: https://simple.wikipedia.org/wiki/7-Eleven
++) McDonalds: https://dynamicmedia.zuza.com/zz/m/original_/d/f/dfea4332-ac8b-4961-82c3-47245ebe0e5c/McDonalds_ArchesLogo_cbd75___Super_Portrait.jpg
++) Fresh Slice: https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Freshslice_Pizza_logo.svg/1200px-Freshslice_Pizza_logo.svg.png
++) A&W: https://en.wikipedia.org/wiki/A%26W_(Canada)
